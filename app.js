@@ -1,5 +1,5 @@
 async function fetchApps() {
-    const response = await fetch('apps/apps.json');
+    const response = await fetch('applist.json');
     const apps = await response.json();
     displayApps(apps);
 }
